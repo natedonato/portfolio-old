@@ -2440,6 +2440,9 @@ input, select, textarea {
 			ul.actions.special li:first-child {
 				padding-left: 0;
 			}
+		.actions.special{
+			margin-bottom: 3em;
+		}
 
 		ul.actions.stacked {
 			-moz-flex-direction: column;
@@ -2550,6 +2553,7 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
+				color: white;
 				font-size: 1.5em;
 			}
 
@@ -2798,11 +2802,11 @@ input, select, textarea {
 		}
 
 		.main.style2 {
-			background-color: #333;
+			background-color: white;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
-			background-size: auto,							cover;
+			background-image: url("../../images/spash.gif");
+			background-size: cover;
 		}
 
 			.main.style2 a {
@@ -3085,10 +3089,10 @@ input, select, textarea {
 
 	#footer {
 		padding: 6em 0 6em 0 ;
-		background-color: #4686a0;
+		background-color: grey;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+		/* background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%); */
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
@@ -3495,4 +3499,8 @@ input, select, textarea {
 #project-bg{
 	background: white;
 	border-radius: 4px;
+}
+
+#me{
+	transition: all 0.3s ease-out;
 }
