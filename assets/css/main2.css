@@ -2091,14 +2091,14 @@ input, select, textarea {
 	}
 
 		#top .image {
-			/* border-radius: 100%; */
+			border-radius: 100%;
 			width: 20em;
 			height: 20em;
 			margin: 0;
 		}
 
 			#top .image img {
-				/* border-radius: 100%; */
+				border-radius: 100%;
 			}
 
 		#top h1 {
