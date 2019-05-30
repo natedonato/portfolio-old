@@ -2189,7 +2189,8 @@ input, select, textarea {
 		/* Articles */
 
 			#top {
-				padding: 13em 0;
+				height: 100vh;
+				padding: 10em 0;
 			}
 
 				#top .image {
@@ -2197,7 +2198,6 @@ input, select, textarea {
 					height: 24em;
 					margin: 0;
 				}
-
 	}
 
 /* Medium */
