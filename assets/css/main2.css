@@ -2086,6 +2086,10 @@ input, select, textarea {
 	}
 
 	#top {
+		display: flex;
+   		height: 100vh;
+    		justify-content: center;
+    		align-items: center;
 		padding: 10em 0 10em 0;
 		text-align: left;
 	}
