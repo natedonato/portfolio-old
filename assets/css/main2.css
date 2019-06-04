@@ -1655,7 +1655,7 @@ input, select, textarea {
 			}
 
 /* Button */
-
+/* 
 	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
@@ -1739,7 +1739,7 @@ input, select, textarea {
 			button.alt:active,
 			.button.alt:active {
 				background-color: #3f3f3f;
-			}
+			} */
 
 /* List */
 
