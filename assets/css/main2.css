@@ -106,13 +106,14 @@ input, select, textarea {
 		-webkit-transition: color .2s ease-in-out;
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
-		color: #43B3E0;
+		color: rgb(70, 162, 199);
 		text-decoration: underline;
 	}
 
 		a:hover {
-			color: #43bff0 !important;
+			color: #4ec3f1 ;
 		}
+		
 
 		a img {
 			border: 0;

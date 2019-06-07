@@ -2546,16 +2546,23 @@ input, select, textarea {
 		ul.icons li {
 			display: inline-block;
 			padding: 0 1.25em 0 0;
+
 		}
 
 			ul.icons li:last-child {
 				padding-right: 0;
 			}
 
-			ul.icons li .icon:before {
+			ul.icons li .icon {
 				color: white;
 				font-size: 1.5em;
 			}
+			ul.icons li .icon:hover {
+				color: rgb(255, 145, 0) !important;
+				font-size: 1.5em;
+			}
+
+
 
 /* Major Icons */
 
