@@ -1,1 +1,1 @@
-Visit http://natedonato.com to see my personal site live (hosted through github pages)
+My old portfolio site (new version coming soon)
